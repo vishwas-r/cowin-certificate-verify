@@ -1,6 +1,6 @@
 {
   "name": "verification",
-  "homepage": "http://vishwas-r.github.io/cowin-verify",
+  "homepage": "http://vishwas-r.github.io/cowin-certificate-verify",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
