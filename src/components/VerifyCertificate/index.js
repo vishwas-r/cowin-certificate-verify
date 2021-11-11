@@ -4,6 +4,7 @@ import VerifyCertificateImg from "../../assets/img/verify-certificate.png"
 import SampleCertificateImg from "../../assets/img/sample_ceritificate.png"
 import ValidCertificateImg from "../../assets/img/ValidCertificate.png"
 import InvalidCertificateImg from "../../assets/img/InvalidCertificate.jpeg"
+import GitHubStatImg from "../../assets/img/cowin_certificate_verify-github.jpg";
 import QRCodeImg from "../../assets/img/qr-code.svg"
 import {CertificateStatus} from "../CertificateStatus";
 import {CustomButton} from "../CustomButton";
@@ -114,7 +115,10 @@ export const VerifyCertificate = () => {
                 }/>
             }
 
-
+		
+			<div>
+				<a href="https://github.com/vishwas-r/cowin-certificate-verify/" target="_blank"><img src={GitHubStatImg} alt="CoWIN Certificate Verify - GitHub Repo" style={{width: "250px", height: "auto", position: "fixed", bottom: "5px", right: "5px", opacity: "0.75", zIndex: "99999"}}/></a>
+			</div>
         </div>
     )
 };
