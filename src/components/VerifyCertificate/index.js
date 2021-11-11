@@ -48,12 +48,13 @@ export const VerifyCertificate = () => {
                             <img className="ml-3" src={QRCodeImg} alt={""}/>
                         </CustomButton>
                         <Container className="mt-5 p-4 mb-5">
+							<p>Github Repo (React Source Code): <a href="https://github.com/vishwas-r/cowin-certificate-verify" target="_blank">https://github.com/vishwas-r/cowin-certificate-verify</a>
                             <p>
                                 The Co-WIN vaccination certificate has a digitally signed secure QR code.
 
-                                This can be authenticated online  using the verification utility in this portal or using third party verification app using the services outlined below.
+                                This can be authenticated online  using the verification utility in CoWIN portal. This app uses the same service to verify the certificate QR Code.
                             </p>
-                            <h6 style={{color:"#646D82"}}>Option 1 – Online verification</h6>
+                            <h6 style={{color:"#646D82"}}>Alternately you can verify @ Official Site by following steps below</h6>
                             <p style={{color:"#646D82"}}>Steps for online verification:</p>
                             <ol className="verify-steps">
                                 <li>Visit <a href="https://verify.cowin.gov.in/">https://verify.cowin.gov.in/</a></li>
