@@ -48,7 +48,7 @@ export const VerifyCertificate = () => {
                             <img className="ml-3" src={QRCodeImg} alt={""}/>
                         </CustomButton>
                         <Container className="mt-5 p-4 mb-5">
-							<p>Github Repo (React Source Code): <a href="https://github.com/vishwas-r/cowin-certificate-verify" target="_blank">https://github.com/vishwas-r/cowin-certificate-verify</a>
+							<p>Github Repo (React Source Code): <a href="https://github.com/vishwas-r/cowin-certificate-verify" target="_blank">https://github.com/vishwas-r/cowin-certificate-verify</a></p>
                             <p>
                                 The Co-WIN vaccination certificate has a digitally signed secure QR code.
 
